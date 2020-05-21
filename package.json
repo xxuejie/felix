@@ -1,0 +1,29 @@
+{
+  "name": "felix",
+  "version": "0.1.0",
+  "description": "A telegram bot for interacting with CKB, hopefully with luck",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxuejie/felix.git"
+  },
+  "scripts": {
+    "fmt": "prettier --write \"lib/**/*.js\" package.json",
+    "server": "node lib/server.js"
+  },
+  "author": "Xuejie Xiao <xxuejie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ckb-lumos/common-scripts": "^0.2.1",
+    "@ckb-lumos/helpers": "^0.2.1",
+    "@ckb-lumos/indexer": "^0.2.1",
+    "botgram": "^2.2.0",
+    "ckb-js-toolkit": "^0.9.1",
+    "https-proxy-agent": "^5.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
