@@ -14,9 +14,9 @@
   "author": "Xuejie Xiao <xxuejie@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@ckb-lumos/common-scripts": "^0.2.1",
-    "@ckb-lumos/helpers": "^0.2.1",
-    "@ckb-lumos/indexer": "^0.2.1",
+    "@ckb-lumos/common-scripts": "^0.2.4",
+    "@ckb-lumos/helpers": "^0.2.4",
+    "@ckb-lumos/indexer": "^0.2.4",
     "botgram": "^2.2.0",
     "ckb-js-toolkit": "^0.9.1",
     "https-proxy-agent": "^5.0.0",
