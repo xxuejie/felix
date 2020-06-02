@@ -9,7 +9,7 @@
   },
   "scripts": {
     "fmt": "prettier --write \"lib/**/*.js\" package.json",
-    "server": "node lib/server.js"
+    "start": "node lib/server.js"
   },
   "author": "Xuejie Xiao <xxuejie@gmail.com>",
   "license": "MIT",
@@ -21,6 +21,8 @@
     "ckb-js-toolkit": "^0.9.1",
     "https-proxy-agent": "^5.0.0",
     "immutable": "^4.0.0-rc.12",
+    "leveldown": "^5.6.0",
+    "levelup": "^4.4.0",
     "uuid": "^8.1.0"
   },
   "devDependencies": {

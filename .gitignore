@@ -1,3 +1,4 @@
 node_modules/
 env.sh
 indexer-data/
+felix-db/
